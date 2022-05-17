@@ -24,9 +24,10 @@ namespace BookStore.Controllers
         {
             
             return View();
-        } 
-        
+        }
+
         //POST
+        [HttpPost]
         public IActionResult Create(Category obj)
         {
             
