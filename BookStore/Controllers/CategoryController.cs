@@ -24,10 +24,11 @@ namespace BookStore.Controllers
         {
             
             return View();
-        } 
-        
+        }
+
         //POST
-        public IActionResult Create()
+        [HttpPost]
+        public IActionResult Create(Category obj)
         {
             
             return View();
