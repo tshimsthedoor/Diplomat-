@@ -27,7 +27,7 @@ namespace BookStore.Controllers
         } 
         
         //POST
-        public IActionResult Create()
+        public IActionResult Create(Category obj)
         {
             
             return View();
